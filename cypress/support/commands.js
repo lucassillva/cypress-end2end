@@ -25,6 +25,7 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... }
 
 Cypress.Commands.add('login', (email, password) => {
+    cy.visit('https://www.jacksonteixeira.com/plataforma')
     cy.get('#email').type(email)
     cy.get('#senha').type(password)
     cy.contains('button', 'ENTRAR').click()
