@@ -24,14 +24,18 @@ Para ter acesso ao repositório:
 ```bash
 https://github.com/lucassillva/cypress-end2end.git
 ```
+### 3° Execute o comando
+```shell
+npm install
+```
 
-### 3° Abrir o projeto no Visual Studio Code:
+### 4° Abrir o projeto no Visual Studio Code:
 
 Para o desenvolvimento do teste automatizado foi utilizado o Visual Studio Code, no entanto, é recomendado ter a ferramenta instalada na máquina. Caso tenha instalado corretamente, abra o projeto clonado do GitHub.
 
-### 4° Execução dos testes automatizados
+### 5° Execução dos testes automatizados
 
-#### 4.1 Primeira Maneira de Executar Testes Automatizados
+#### 5.1 Primeira Maneira de Executar Testes Automatizados
 Para executar o projeto, é necessário digitar um dos seguintes comandos:
 
 ```shell
@@ -46,7 +50,7 @@ npx Cypress open
 ![Tela Cypress - E2E Testing](readme-images/tela-e2e.png)
 4° Imagem: Apresentação dos testes e2e e seus devidos status.
 
-#### 4.2 Segunda Maneira de Executar Testes Automatizados
+#### 5.2 Segunda Maneira de Executar Testes Automatizados
 Outra forma de executar a automação é:
 
 ```shell
