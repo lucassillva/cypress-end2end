@@ -1,5 +1,3 @@
-/// <reference types="cypress" />
-
 describe('Funcionalidade Produtos', () => {
 
     beforeEach(() => {
@@ -26,11 +24,9 @@ describe('Funcionalidade Produtos', () => {
             // Dispare eventos de teclado para interagir com o CKEditor
             cy.wrap(ckEditorTextElement)
                 .type('{selectall}{backspace}') // Limpe o conteúdo existente
-                .type('Texto que você deseja inserir');
-
-            
+                .type('Teste');
         });
-
+        cy.wait(100)
         cy.get('#buttonSalvar').click()
         cy.get('.ng-trigger').should('be.visible')
     })
